@@ -1,5 +1,8 @@
 # Express.js 4 Cheatsheet
 
+* [Buy an awesome print-ready PDF](https://gum.co/NQiQ)
+
+
 ## Installation
 
 * `$ sudo npm install express`: install the latest Express.js  locally`
