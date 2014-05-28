@@ -2,4 +2,5 @@
 
 # Express.js 4 Cheatsheet
 
-[view online](express4/index.md)
+* [Buy an awesome print-ready PDF](https://gum.co/NQiQ)
+* [View online for free](express4/index.md)
