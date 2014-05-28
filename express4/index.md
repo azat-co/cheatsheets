@@ -1,6 +1,6 @@
 # Express.js 4 Cheatsheet
 
-* [Buy an awesome print-ready PDF](https://gum.co/NQiQ)
+* [Buy an awesome beautiful print-ready PDF](https://gum.co/NQiQ)
 
 
 ## Installation
