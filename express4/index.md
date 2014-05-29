@@ -35,13 +35,13 @@ Options:
 
 ## HTTP Verbs and Routes
 
-* `app.get()`
-* `app.post()`
-* `app.put()`
-* `app.del()`
-* `app.all()`
-* `app.param()`: 
-* `app.use()`
+* `app.get(urlPattern, requestHandler[, requestHandler2, ...])`
+* `app.post(urlPattern, requestHandler[, requestHandler2, ...])`
+* `app.put(urlPattern, requestHandler[, requestHandler2, ...])`
+* `app.del(urlPattern, requestHandler[, requestHandler2, ...])`
+* `app.all(urlPattern,  requestHandler[, requestHandler2, ...])`
+* `app.param([name,] callback)`: 
+* `app.use([urlPattern,] requestHandler[, requestHandler2, ...])`
 
 ## Request
 
@@ -59,7 +59,7 @@ Options:
 * `request.accepts(type)`: checks if the type is accepted
 * `request.acceptsLanguage(language)`: checks language
 * `request.acceptsCharset(charset)`: checks charset
-* `request.is(type): checks the type
+* `request.is(type)`: checks the type
 * `request.ip`: IP address
 * `request.ips`: IP addresses (with trust-proxy on)
 * `request.path`: URL path
