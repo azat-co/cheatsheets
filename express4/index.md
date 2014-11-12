@@ -38,7 +38,7 @@ Options:
 * `app.get(urlPattern, requestHandler[, requestHandler2, ...])`
 * `app.post(urlPattern, requestHandler[, requestHandler2, ...])`
 * `app.put(urlPattern, requestHandler[, requestHandler2, ...])`
-* `app.del(urlPattern, requestHandler[, requestHandler2, ...])`
+* `app.delete(urlPattern, requestHandler[, requestHandler2, ...])`
 * `app.all(urlPattern,  requestHandler[, requestHandler2, ...])`
 * `app.param([name,] callback)`: 
 * `app.use([urlPattern,] requestHandler[, requestHandler2, ...])`
@@ -101,7 +101,9 @@ app.set('view engine', 'jade')
 ```
 var bodyParser = require('body-parser')
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded())
+app.use(bodyParser.urlencoded({
+    extended: true
+}))
 ```
 
 ## Static
