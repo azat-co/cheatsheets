@@ -52,7 +52,7 @@ Post.find({},function(error, posts){
 * `Schema.Types.Mixed`
 * `Schema.Types.ObjectId`
 
-## Create, Read, Update, Delete (CRUD) Mondoose Example
+## Create, Read, Update, Delete (CRUD) Mongoose Example
 
 ```
 // Create
