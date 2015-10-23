@@ -1,6 +1,6 @@
 # Express.js 4 Cheatsheet
 
-* [Buy an awesome beautiful print-ready PDF](https://gum.co/NQiQ)
+[PDF](https://gum.co/NQiQ/git-874E6FB4)
 
 
 ## Installation
@@ -40,7 +40,7 @@ Options:
 * `app.put(urlPattern, requestHandler[, requestHandler2, ...])`
 * `app.delete(urlPattern, requestHandler[, requestHandler2, ...])`
 * `app.all(urlPattern,  requestHandler[, requestHandler2, ...])`
-* `app.param([name,] callback)`: 
+* `app.param([name,] callback)`:
 * `app.use([urlPattern,] requestHandler[, requestHandler2, ...])`
 
 ## Request
@@ -48,7 +48,7 @@ Options:
 * `request.params`: parameters middlware
 * `request.param`: extract one parameter
 * `request.query`: extract query string parameter
-* `request.route`: return route string 
+* `request.route`: return route string
 * `request.cookies`: cookies, requires cookieParser
 * `request.signedCookies`: signed cookies, requires `cookie-parser`
 * `request.body`: payload, requires `body-parser`
@@ -114,20 +114,20 @@ app.use(bodyParser.urlencoded({
 
 `$ sudo npm install <package_name> --save`
 
-* [body-parser](https://github.com/expressjs/body-parser) request payload 
-* [compression](https://github.com/expressjs/compression) gzip 
+* [body-parser](https://github.com/expressjs/body-parser) request payload
+* [compression](https://github.com/expressjs/compression) gzip
 * [connect-timeout](https://github.com/expressjs/timeout)
-* [cookie-parser](https://github.com/expressjs/cookie-parser) Cookies 
-* [cookie-session](https://github.com/expressjs/cookie-session) Session via Cookies store 
-* [csurf](https://github.com/expressjs/csurf) CSRF 
-* [errorhandler](https://github.com/expressjs/errorhandler) error handler 
-* [express-session](https://github.com/expressjs/session) session via in-memory or other store 
-* [method-override](https://github.com/expressjs/method-override) HTTP method override 
-* [morgan](https://github.com/expressjs/morgan) server logs 
+* [cookie-parser](https://github.com/expressjs/cookie-parser) Cookies
+* [cookie-session](https://github.com/expressjs/cookie-session) Session via Cookies store
+* [csurf](https://github.com/expressjs/csurf) CSRF
+* [errorhandler](https://github.com/expressjs/errorhandler) error handler
+* [express-session](https://github.com/expressjs/session) session via in-memory or other store
+* [method-override](https://github.com/expressjs/method-override) HTTP method override
+* [morgan](https://github.com/expressjs/morgan) server logs
 * [response-time](https://github.com/expressjs/response-time)
-* [serve-favicon](https://github.com/expressjs/serve-favicon) favicon 
+* [serve-favicon](https://github.com/expressjs/serve-favicon) favicon
 * [serve-index](https://github.com/expressjs/serve-index)
-* [serve-static](https://github.com/expressjs/serve-static) static content 
+* [serve-static](https://github.com/expressjs/serve-static) static content
 * [vhost](https://github.com/expressjs/vhost)
 
 
@@ -142,7 +142,7 @@ app.use(bodyParser.urlencoded({
   * [st](https://github.com/isaacs/st), [connect-static](https://github.com/andrewrk/connect-static) analogous to `staticCache`
 
 
-* [express-validator](https://github.com/ctavan/express-validator): validation 
+* [express-validator](https://github.com/ctavan/express-validator): validation
 * [less](https://github.com/emberfeather/less.js-middleware): LESS CSS
 * [passport](https://github.com/jaredhanson/passport): authentication library
 * [helmet](https://github.com/evilpacket/helmet): security headers

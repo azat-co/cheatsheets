@@ -1,5 +1,7 @@
 # MongoDB and Mongoose Cheatsheet
 
+[PDF](https://gum.co/mongodb/git-874e6fb4)
+
 ## MongoDB
 
 * `$ mongod`: start MongoDB server (localhost:27017)
