@@ -80,7 +80,7 @@ class Link extends React.Component {
 
 ### Options (ES5)
 
-* `propTypes` object`: Type validation in development mode
+* `propTypes object`: Type validation in development mode
 * `getDefaultProps function()`: object of default props
 * `getInitialState function()`: object of the initial state
 
@@ -349,13 +349,25 @@ Types available under `React.PropTypes`:
 * `object`
 * `string`
 
-To make required, append ``.isRequired`.
+To make required, append `.isRequired`.
 
 More methods:
 
 * `instanceOf(constructor)`
 * `oneOf(['News', 'Photos'])`
 * `oneOfType([propType, propType])`
+
+### Custom Validation
+
+```js
+propTypes: {
+  customProp: function(props, propName, componentName) {
+    if (!/matchme/.test(props[propName])) {
+      return new Error('Validation failed!');
+    }
+  }
+}
+```
 
 ## Component Properties and Methods
 
