@@ -1,6 +1,6 @@
 # MongoDB and Mongoose Cheatsheet
 
-[PDF](https://gum.co/mongodb/git-874e6fb4)
+FREE beautifully-designed print-ready [PDF](https://gum.co/mongodb/git-874e6fb4)
 
 ## MongoDB
 
