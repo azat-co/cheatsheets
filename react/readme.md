@@ -362,7 +362,7 @@ More methods:
 ```js
 propTypes: {
   customProp: function(props, propName, componentName) {
-    if (!/matchme/.test(props[propName])) {
+    if (!/regExPattern/.test(props[propName])) {
       return new Error('Validation failed!');
     }
   }
