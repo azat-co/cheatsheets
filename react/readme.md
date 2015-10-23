@@ -34,6 +34,15 @@ ReactDOM.render(
 )
 ```
 
+## Server-side Rendering
+
+```js
+var ReactDOMServer = require('react-dom/server')
+ReactDOMServer.renderToString(Link, {name: 'HackHall.com'})
+ReactDOMServer.renderToStaticMarkup(Link, {name: 'HackHall.com'})
+```
+
+
 ## Components
 
 ### ES5
@@ -318,11 +327,13 @@ Inspired by <http://react.tips>
 ## Special Props
 
 * `key`: Unique identifier for an element to turn arrays/lists into hashes for better performance, e.g., `key={id}`
-* `ref`: Reference to an element via `this.refs.NAME`, e.g., `ref="email"`
-* `style`: accepts an object of styles, instead of a string (immutable since v0.14), e.g., `style={{color: red}}`
-* `className`: corresponds to the HTML `class` attribute, e.g., `className="btn"`
-* `htmlFor`: corresponds to the HTML `for` attribute, e.g., `htmlFor="email"`
+* `ref`: Reference to an element via `this.refs.NAME`, e.g., `ref="email"` will create `this.refs.email` DOM node or `ReactDOM.findDOMNode(this.refs.email)`
+* `style`: Accept an object of styles, instead of a string (immutable since v0.14), e.g., `style={{color: red}}`
+* `className`: the HTML `class` attribute, e.g., `className="btn"`
+* `htmlFor`: the HTML `for` attribute, e.g., `htmlFor="email"`
+* `dangerouslySetInnerHTML`: raw HTML by providing an object with the key `__html`
 * `children`: content of the element via `this.props.children`, e.g., `this.props.children[0]`
+* `data-NAME`: custom attribute, e.g., `data-tooltip-text="..."`
 
 ## propTypes
 
@@ -360,3 +371,21 @@ Methods:
 * `setState(changes)`: Change state (partially) to `this.state` and trigger re-render
 * `replaceState(newState)`: Replace `this.state` and trigger re-render
 * `forceUpdate()`: Trigger DOM re-render immediately
+
+## React Addons
+
+As npm modules:
+
+* [`react-addons-css-transition-group`](http://facebook.github.io/react/docs/animation.html)
+* [`react-addons-perf`](http://facebook.github.io/react/docs/perf.html)
+* [`react-addons-test-utils`](http://facebook.github.io/react/docs/test-utils.html)
+* [`react-addons-pure-render-mixin`](http://facebook.github.io/react/docs/pure-render-mixin.html)
+* [`react-addons-linked-state-mixin`](http://facebook.github.io/react/docs/two-way-binding-helpers.html)
+* `react-addons-clone-with-props`
+* `react-addons-create-fragment`
+* `react-addons-css-transition-group`
+* `react-addons-linked-state-mixin`
+* `react-addons-pure-render-mixin`
+* `react-addons-shallow-compare`
+* `react-addons-transition-group`
+* [`react-addons-update`](http://facebook.github.io/react/docs/update.html)
