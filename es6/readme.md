@@ -35,7 +35,6 @@ gulp.task('build', function () {
 
 ## Default Parameters in ES6
 
-
 ```js
 var link = function(height = 50, color = 'red', url = 'http://azat.co') {
   ...
@@ -43,7 +42,6 @@ var link = function(height = 50, color = 'red', url = 'http://azat.co') {
 ```
 
 ## Template Literals in ES6
-
 
 ```js
 var name = `Your name is ${first} ${last}.`
