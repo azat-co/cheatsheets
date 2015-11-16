@@ -69,7 +69,7 @@ var fourAgreements = `You have the right to be you.
 ```js
 var { house, mouse} = $('body').data() // we'll get house and mouse variables
 
-var {jsonMiddleware} = require('body-parser')
+var {json} = require('body-parser')
 
 var {username, password} = req.body
 
@@ -103,7 +103,7 @@ console.log(accountService)
 
 ```js
 $('.btn').click((event) =>{
-  _this.sendData()
+  this.sendData()
 })
 ```
 
