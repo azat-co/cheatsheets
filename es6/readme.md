@@ -48,7 +48,6 @@ var name = `Your name is ${first} ${last}.`
 var url = `http://localhost:3000/api/messages/${id}`
 ```
 
-
 ## Multi-line Strings in ES6
 
 ```js
