@@ -61,7 +61,7 @@ var Link = React.createClass({
 ```js
 var Link = React.createClass({
   render: function() {
-    <a className='btn' title={this.props.name}>'Click ->', this.props.name</a>
+    return <a className='btn' title={this.props.name}>Click -> this.props.name</a>
   }
 });
 ```
@@ -71,7 +71,7 @@ var Link = React.createClass({
 ```js
 class Link extends React.Component {
   render() {
-    return <a className='btn' title={this.props.name}>'Click ->', this.props.name</a>;
+    return <a className='btn' title={this.props.name}>Click -> this.props.name</a>
   }
 }
 ```
