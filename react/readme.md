@@ -1,5 +1,9 @@
 # React Cheatsheet (v0.14)
 
+> Either with your shield, or on it.
+
+[FREE beautifully-designed print-ready PDF.](https://gum.co/IJRtw/git-FB2C5E22)
+
 ## Installation
 
 React:
