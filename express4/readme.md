@@ -1,5 +1,7 @@
 # Express.js 4 Cheatsheet
 
+> These people are the Sparta’s walls.
+
 FREE beautifully-designed print-ready [PDF](https://gum.co/NQiQ/git-874E6FB4)
 
 
