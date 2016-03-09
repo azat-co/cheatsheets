@@ -7,7 +7,7 @@ FREE beautifully-designed print-ready [PDF](https://gum.co/NQiQ/git-874E6FB4)
 
 ## Installation
 
-* `$ sudo npm install express`: install the latest Express.js  locally`
+* `$ sudo npm install express`: install the latest Express.js  locally
 * `$ sudo npm install express@4.2.0 --save`: install Express.js v4.2.0 locally and save to `package.json`
 * `$ sudo npm install -g express-generator@4.0.0`: install Express.js command-line generator v4.0.0
 
@@ -51,7 +51,7 @@ Options:
 * `request.param`: extract one parameter
 * `request.query`: extract query string parameter
 * `request.route`: return route string
-* `request.cookies`: cookies, requires cookieParser
+* `request.cookies`: cookies, requires `cookie-parser`
 * `request.signedCookies`: signed cookies, requires `cookie-parser`
 * `request.body`: payload, requires `body-parser`
 
@@ -134,14 +134,11 @@ app.use(bodyParser.urlencoded({
 
 
 ## Other Popular Middleware
-
-
-
-  * [cookies](https://github.com/jed/cookies) and [keygrip](https://github.com/jed/keygrip): analogous to `cookieParser`
-  * [raw-body](https://github.com/stream-utils/raw-body)
-  * [connect-multiparty](https://github.com/superjoe30/connect-multiparty), [connect-busboy](https://github.com/mscdex/connect-busboy)
-  * [qs](https://github.com/visionmedia/node-querystring): analogous to `query`
-  * [st](https://github.com/isaacs/st), [connect-static](https://github.com/andrewrk/connect-static) analogous to `staticCache`
+* [cookies](https://github.com/jed/cookies) and [keygrip](https://github.com/jed/keygrip): analogous to `cookie-parser`
+* [raw-body](https://github.com/stream-utils/raw-body)
+* [connect-multiparty](https://github.com/superjoe30/connect-multiparty), [connect-busboy](https://github.com/mscdex/connect-busboy)
+* [qs](https://github.com/visionmedia/node-querystring): analogous to `query`
+* [st](https://github.com/isaacs/st), [connect-static](https://github.com/andrewrk/connect-static) analogous to `staticCache`
 
 
 * [express-validator](https://github.com/ctavan/express-validator): validation
