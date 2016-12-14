@@ -2,9 +2,9 @@
 
 > These people are the Sparta’s walls.
 
-FREE beautifully-designed print-ready [PDF](https://gum.co/NQiQ/git-874E6FB4)
+FREE beautifully-designed print-ready [PDF](https://node.university/p/library)
 
-[![](express-cover.png)](https://gum.co/NQiQ/git-874E6FB4)
+[![](express-cover.png)](https://node.university/p/library)
 
 ## Installation
 

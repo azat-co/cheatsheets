@@ -2,11 +2,11 @@
 
 > ES6 is the new JavaScript.
 
-[FREE beautifully-designed print-ready PDF](https://gum.co/LDwVU/git-1CC81D40).
+[FREE beautifully-designed print-ready PDF](https://node.university/p/library).
 
 This is a brief cheatsheet to look up the syntax of some of the ES6 features. It assumes you know how they work. If not, check [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](http://webapplog.com/es6/) for the detailed explanation.
 
-[![](es6-cover.png)](https://gum.co/LDwVU/git-1CC81D40)
+[![](es6-cover.png)](https://node.university/p/library)
 
 ## Installation
 

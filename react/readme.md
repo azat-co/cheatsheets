@@ -2,21 +2,21 @@
 
 > Either with your shield, or on it.
 
-[FREE beautifully-designed print-ready PDF.](https://gum.co/IJRtw/git-FB2C5E22)
+[FREE beautifully-designed print-ready PDF.](https://node.university/p/library)
 
-[![](react-cover.png)](https://gum.co/IJRtw/git-FB2C5E22)
+[![](react-cover.png)](https://node.university/p/library)
 
 ## Installation
 
 React:
 
-* `<script src="https://fb.me/react-0.14.0.js"></script>`
+* `<script src="https://unpkg.com/react@15/dist/react.js"></script>`
 * `$ npm install react --save`
 * `$ bower install react --save`
 
 React DOM:
 
-* `<script src="https://fb.me/react-dom-0.14.0.js"></script>`
+* `<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>`
 * `$ npm install react-dom`
 * `$ bower install react-dom --save`
 
@@ -59,7 +59,7 @@ var Link = React.createClass({
   render: function() {
     return React.createElement('a', {className: 'btn', title: this.props.name}, 'Click ->', this.props.name);
   }
-});
+})
 ```
 
 ### ES5 + JSX
@@ -69,7 +69,7 @@ var Link = React.createClass({
   render: function() {
     return <a className='btn' title={this.props.name}>Click -> this.props.name</a>
   }
-});
+})
 ```
 
 ### ES6 + JSX
@@ -111,7 +111,7 @@ var Link = React.createClass ({
       'Click ->',
       (this.props.name? this.props.name : 'webapplog.com'),
       ' (Clicked: '+this.state.count+')'
-    );
+    )
   }
 })
 ```
@@ -133,10 +133,10 @@ var Link = React.createClass ({
   render: function() {
     return (
       <a onClick={this.tick.bind(this)} href="#" className="btn" title={this.props.name}>
-        Click -> {(this.props.name? this.props.name : 'webapplog.com')}
+        Click -> {(this.props.name ? this.props.name : 'webapplog.com')}
         (Clicked: {this.state.count})
       </a>
-    );
+    )
   }
 })
 ```
@@ -407,3 +407,13 @@ As npm modules:
 * `react-addons-shallow-compare`
 * `react-addons-transition-group`
 * [`react-addons-update`](http://facebook.github.io/react/docs/update.html)
+
+## React Components
+
+* <https://github.com/brillout/awesome-react-components> and <http://devarchy.com/react-components>: List of React components
+* [Material-UI](http://www.material-ui.com): Material design React components
+* <http://react-toolbox.com>: Set of React components that implement Google Material Design specification
+* <https://js.coach>: Opinionated catalog of open source JS (mostly React) packages
+* <https://react.rocks>: Catalog of React components
+* <https://khan.github.io/react-components>: Khan Academy React components
+* <http://www.reactjsx.com>: Registry of React components

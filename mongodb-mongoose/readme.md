@@ -1,8 +1,8 @@
 # MongoDB and Mongoose Cheatsheet
 
-FREE beautifully-designed print-ready [PDF](https://gum.co/mongodb/git-874e6fb4)
+FREE beautifully-designed print-ready [PDF](https://node.university/p/library)
 
-[![](mongodb-mongoose-cover1.png)](https://gum.co/mongodb/git-874e6fb4)
+[![](mongodb-mongoose-cover1.png)](https://node.university/p/library)
 
 ## MongoDB
 
