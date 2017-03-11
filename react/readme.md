@@ -2,7 +2,7 @@
 
 > Either with your shield, or on it.
 
-[FREE beautifully-designed print-ready PDF.](https://node.university/p/library)
+[Beautifully-designed print-ready PDF.](https://node.university/p/library)
 
 [![](react-cover.png)](https://node.university/p/library)
 
