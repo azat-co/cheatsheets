@@ -2,7 +2,7 @@
 
 > These people are the Sparta’s walls.
 
-FREE beautifully-designed print-ready [PDF](https://node.university/p/library)
+Beautifully-designed print-ready [PDF](https://node.university/p/library)
 
 [![](express-cover.png)](https://node.university/p/library)
 
