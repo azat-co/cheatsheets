@@ -146,5 +146,5 @@ app.use(bodyParser.urlencoded({
 * [less](https://github.com/emberfeather/less.js-middleware): LESS CSS
 * [passport](https://github.com/jaredhanson/passport): authentication library
 * [helmet](https://github.com/evilpacket/helmet): security headers
-* [cors](https://www.npmjs.com/package/cors): CORS
+* [cors](https://github.com/expressjs/cors): CORS
 * [connect-redis](http://github.com/visionmedia/connect-redis)
