@@ -162,3 +162,4 @@ Main package.json properties:
 * [Node Foundation](https://nodejs.org)
 * [Node School](http://nodeschool.io)
 * [Node University](https://node.university)
+* [Complete Node.js CheatSheet](https://gist.github.com/LeCoupa/985b82968d8285987dc3)
