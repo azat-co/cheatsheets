@@ -9,7 +9,7 @@
 
 npm comes with Node. Node 6, 8, 10, etc are long-term support versions. 
 
-## brew (macOS only)
+### brew (macOS only)
 
 if no brew, then install it first:
 
@@ -21,11 +21,11 @@ if no brew, then install it first:
 brew update && brew install node
 ```
 
-## Installer (recommended for beginners)
+### Installer (recommended for beginners)
 
 Download installer from <https://nodejs.org>
 
-## source (recommended for contributors) 
+### source (recommended for contributors) 
 
 Unix / macOS Prerequisites:
 
@@ -55,7 +55,7 @@ make test
 make instal
 ```
 
-## nvm (recommended for switching between multiple versions)
+### nvm (recommended for switching between multiple versions)
 
 nvm does not support Windows
 
@@ -63,7 +63,7 @@ nvm does not support Windows
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 
-## yum 
+### yum 
 
 OSs: Amazon Linux, Red Hat® Enterprise Linux® / RHEL, CentOS, CloudLinux, Oracle Linux and Fedora
 
@@ -74,7 +74,7 @@ yum -y install nodejs
 ```
 
 
-##  apt-get
+###  apt-get
 
 OSs: Debian, Ubuntu, Alpine, Linux Mint, Linux Mint Debian Edition (LMDE), elementaryOS
 
@@ -82,6 +82,15 @@ OSs: Debian, Ubuntu, Alpine, Linux Mint, Linux Mint Debian Edition (LMDE), eleme
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+### Docker 
+
+Dockerfile FROM image names:
+
+* `node:8`
+* `node:alpine`
+* `node:slim`
+
 
 ## Usage
 
