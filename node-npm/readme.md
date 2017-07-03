@@ -27,6 +27,32 @@ Download installer from <https://nodejs.org>
 
 ## source (recommended for contributors) 
 
+Unix / macOS Prerequisites:
+
+* gcc and g++ 4.9.4 or newer, or clang and clang++ 3.4.2 or newer (macOS: latest Xcode Command Line Tools)
+* Python 2.6 or 2.7
+* GNU Make 3.81 or newer
+
+Windows Prerequisites:
+
+* Building Node: Visual Studio 2015 or Visual C++ Build Tools 2015 or newer
+* Building native add-ons: Visual Studio 2013 or Visual C++ Build Tools 2015 or newer
+
+
+```
+git clone git@github.com:nodejs/node.git
+cd node
+./configure
+make -j4
+```
+
+Test and make it a system Eode:
+
+```
+make test
+./node -e "console.log('Hello from Node.js ' + process.version)"
+make instal
+```
 
 ## nvm (recommended for switching between multiple versions)
 
@@ -107,6 +133,7 @@ Main package.json properties:
 * `npm i --production` or `NODE_ENV=production npm i`
 * `npm config ls`
 * `npm config set {config-key} {config-value}`
+* `npm i git+http://github.com/{username}/{repo-name}.git`
 
 
 # Node C++ Addons
