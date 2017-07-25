@@ -180,153 +180,20 @@ Lifecycle Events:
 
 Sequence of lifecycle events:
 
-<table>
-  <thead>
-    <tr>
-      <th>Mounting</th>
-      <th colspan="3">Updating</th>
-      <th>Unmounting</th>
-    </tr>
-
-    <tr>
-      <th></th>
-      <th>Component Properties</th>
-      <th>Component State</th>
-      <th>Using forceUpdate()</th>
-      <th></th>
-    </tr>
-
-  </thead>
-
-
-  <tbody>
-
-    <tr>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#getdefaultprops" target="_blank">getDefaultProps()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#getinitialstate" target="_blank">getInitialState()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#mounting-componentwillmount" target="_blank">componentWillMount()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-      </td>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops" target="_blank">componentWillReceiveProps()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-      </td>
-      <td align="center" colspan="2">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate" target="_blank">shouldComponentUpdate()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-      </td>
-      <td align="center" colspan="3">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#updating-componentwillupdate" target="_blank">componentWillUpdate()</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" colspan="4">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#render" target="_blank">render()</a>
-      </td>
-
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-      </td>
-      <td align="center" colspan="3">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate" target="_blank">componentDidUpdate()</a>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount" target="_blank">componentDidMount()</a>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td>
-      </td>
-      <td align="center">
-        <a href="https://facebook.github.io/react/docs/component-specs.html#unmounting-componentwillunmount" target="_blank">componentWillUnmount()</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Mounting | Updating | Unmounting |
+| --- | --- | --- |
+ Component Properties | Component State | Using forceUpdate() |
+| --- | --- | --- | --- | --- |
+| [getDefaultProps()](https://facebook.github.io/react/docs/component-specs.html#getdefaultprops) |
+| [getInitialState()](https://facebook.github.io/react/docs/component-specs.html#getinitialstate) |
+| [componentWillMount()](https://facebook.github.io/react/docs/component-specs.html#mounting-componentwillmount) |
+ [componentWillReceiveProps()](https://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) |
+ [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) |
+ [componentWillUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-componentwillupdate) |
+| [render()](https://facebook.github.io/react/docs/component-specs.html#render) |
+ [componentDidUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate) |
+| [componentDidMount()](https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount) |
+ [componentWillUnmount()](https://facebook.github.io/react/docs/component-specs.html#unmounting-componentwillunmount) |
 
 Inspired by <http://react.tips>
 
