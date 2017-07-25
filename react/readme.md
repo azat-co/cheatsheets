@@ -180,20 +180,7 @@ Lifecycle Events:
 
 Sequence of lifecycle events:
 
-| Mounting | Updating | Unmounting |
-| --- | --- | --- |
- Component Properties | Component State | Using forceUpdate() |
-| --- | --- | --- | --- | --- |
-| [getDefaultProps()](https://facebook.github.io/react/docs/component-specs.html#getdefaultprops) |
-| [getInitialState()](https://facebook.github.io/react/docs/component-specs.html#getinitialstate) |
-| [componentWillMount()](https://facebook.github.io/react/docs/component-specs.html#mounting-componentwillmount) |
- [componentWillReceiveProps()](https://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) |
- [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) |
- [componentWillUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-componentwillupdate) |
-| [render()](https://facebook.github.io/react/docs/component-specs.html#render) |
- [componentDidUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate) |
-| [componentDidMount()](https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount) |
- [componentWillUnmount()](https://facebook.github.io/react/docs/component-specs.html#unmounting-componentwillunmount) |
+![](lifecycle-events.png)
 
 Inspired by <http://react.tips>
 
