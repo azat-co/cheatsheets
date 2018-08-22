@@ -98,7 +98,7 @@ Post.findOne(criteria, function(error, post) {
 * `findOne(criteria, [fields], [options], [callback])`: return a single document; callback has error and document arguments
 * `findOneAndUpdate([criteria], [update], [options], [callback])`: executes MongoDB's findAndModify to update
 * `findOneAndRemove(id, [update], [options], [callback])`: executes MongoDB's findAndModify to remove
-* `update(criteria, update, [options], [callback])`: update documents; callbach has error, and count arguments
+* `update(criteria, update, [options], [callback])`: update documents; callback has error, and count arguments
 * `create(doc(s), [callback])`: create document object and save it to database; callback has error and doc(s) arguments
 * `remove(criteria, [callback])`: remove documents; callback has error argument
 
