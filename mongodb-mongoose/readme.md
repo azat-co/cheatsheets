@@ -111,3 +111,29 @@ Post.findOne(criteria, function(error, post) {
 * `populate([path], [callback])`: populate reference
 * `toJSON(options)`: get JSON from document
 * `validate(callback)`: validate the document
+
+## Query Helpers
+
+animalSchema.query.byName = function(name) {
+    return this.where({ name: new RegExp(name, 'i') });
+  };
+
+  var Animal = mongoose.model('Animal', animalSchema);
+
+  Animal.find().byName('fido').exec(function(err, animals) {
+    console.log(animals);
+  });
+
+  Animal.findOne().byName('fido').exec(function(err, animal) {
+    console.log(animal);
+  });
+  
+  ## Indexes
+  
+  var animalSchema = new Schema({
+    name: String,
+    type: String,
+    tags: { type: [String], index: true } // field level
+  });
+
+  animalSchema.index({ name: 1, type: -1 }); // schema level
