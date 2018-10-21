@@ -113,7 +113,7 @@ Post.findOne(criteria, function(error, post) {
 * `validate(callback)`: validate the document
 
 ## Query Helpers
-
+```
 animalSchema.query.byName = function(name) {
     return this.where({ name: new RegExp(name, 'i') });
   };
@@ -127,9 +127,9 @@ animalSchema.query.byName = function(name) {
   Animal.findOne().byName('fido').exec(function(err, animal) {
     console.log(animal);
   });
-  
+ ``` 
   ## Indexes
-  
+ ```
   var animalSchema = new Schema({
     name: String,
     type: String,
@@ -137,3 +137,4 @@ animalSchema.query.byName = function(name) {
   });
 
   animalSchema.index({ name: 1, type: -1 }); // schema level
+```
