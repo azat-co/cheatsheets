@@ -168,7 +168,12 @@ Link.defaultProps = { initialCount: 0 };
 ## Lifecycle Events
 
 
-Lifecycle Events:
+Modern React lifecycle methods (v16+)
+![](DZ-97vzW4AAbcZj.jpg)
+
+
+
+Legacy Lifecycle Events:
 
 * `componentWillMount function()`
 * `componentDidMount function()`
@@ -183,6 +188,7 @@ Sequence of lifecycle events:
 ![](lifecycle-events.png)
 
 Inspired by <http://react.tips>
+
 
 ## Special Props
 
