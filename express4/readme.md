@@ -79,7 +79,7 @@ Options:
 
 * `response.redirect(status, url)`: redirect request
 * `response.send(status, data)`: send response
-* `response.json(status, data):` send JSON and force proper headers
+* `response.status(status).json(data):` send JSON and force proper headers
 * `response.sendfile(path, options, callback)`: send a file
 * `response.render(templateName, locals, callback)`: render a template
 * `response.locals`: pass data to template
