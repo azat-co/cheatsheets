@@ -29,7 +29,7 @@ Beautifully-designed print-ready [PDF](https://node.university/p/library)
 
 ## Mongoose Basic Usage
 
-```
+```javascript
 var mongoose = require('mongoose')
 var dbUri = 'mongodb://localhost:27017/api'
 var dbConnection = mongoose.createConnection(dbUri)
@@ -58,7 +58,7 @@ Post.find({},function(error, posts){
 
 ## Create, Read, Update, Delete (CRUD) Mongoose Example
 
-```
+```javascript
 // Create
 var post = new Post({title: 'a', text: 'b')
 post.save(function(error, document){
@@ -113,28 +113,30 @@ Post.findOne(criteria, function(error, post) {
 * `validate(callback)`: validate the document
 
 ## Query Helpers
-```
+```javascript
 animalSchema.query.byName = function(name) {
-    return this.where({ name: new RegExp(name, 'i') });
-  };
+  return this.where({ name: new RegExp(name, 'i') });
+};
 
-  var Animal = mongoose.model('Animal', animalSchema);
+var Animal = mongoose.model('Animal', animalSchema);
 
-  Animal.find().byName('fido').exec(function(err, animals) {
-    console.log(animals);
-  });
+Animal.find().byName('fido').exec(function(err, animals) {
+  console.log(animals);
+});
 
-  Animal.findOne().byName('fido').exec(function(err, animal) {
-    console.log(animal);
-  });
- ``` 
-  ## Indexes
- ```
-  var animalSchema = new Schema({
-    name: String,
-    type: String,
-    tags: { type: [String], index: true } // field level
-  });
+Animal.findOne().byName('fido').exec(function(err, animal) {
+  console.log(animal);
+});
+``` 
 
-  animalSchema.index({ name: 1, type: -1 }); // schema level
+## Indexes
+
+```javascript
+var animalSchema = new Schema({
+  name: String,
+  type: String,
+  tags: { type: [String], index: true } // field level
+});
+
+animalSchema.index({ name: 1, type: -1 }); // schema level
 ```
