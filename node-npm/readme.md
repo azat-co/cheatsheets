@@ -2,9 +2,6 @@
 
 > Node, Node... it's everywhere.
 
-[FREE beautifully-designed print-ready PDF](https://node.university/p/library).
-
-
 ## Installation
 
 npm comes with Node. Node 6, 8, 10, etc are long-term support versions. 
@@ -161,5 +158,4 @@ Main package.json properties:
 
 * [Node Foundation](https://nodejs.org)
 * [Node School](http://nodeschool.io)
-* [Node University](https://node.university)
 * [Complete Node.js CheatSheet](https://gist.github.com/LeCoupa/985b82968d8285987dc3)
